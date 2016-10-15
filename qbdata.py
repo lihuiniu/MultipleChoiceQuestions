@@ -52,7 +52,7 @@ def readQbdata():
     resultdata = []
     with open('qb_data.csv') as csvfile:
         reader = csv.DictReader(csvfile)
-    resultdata = [row for row in reader]
+        resultdata = [row for row in reader]
 
     return resultdata
 
